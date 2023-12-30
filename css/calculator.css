@@ -1,0 +1,77 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+.calculator-body{
+    background-color: #313131;
+    padding: 20px 0px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 30px 30px 20px 20px;
+    width: 400px;
+    box-shadow: 4px 1px 35px #959595;
+}
+.input input{
+    padding: 10px 50px 20px 0px;
+    color: white;
+    font-size: 50px;
+    width: -webkit-fill-available;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    text-align: right;
+}
+.input input::placeholder{
+    color: white;
+}
+.input input:active{
+    background-color: transparent;
+}
+.input input:focus{
+    outline: none;
+}
+.first-inputs input , .second-inputs input , .third-inputs input , .fourth-inputs input , .fifth-inputs input{
+    width: 60px;
+    height: 60px;
+    border-radius: 20%;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 25px;
+    box-shadow: 0px 0px 5px 0px white;
+    border: none;
+}
+input:active{
+    background-color: black;
+    color: white;
+    transform: translate(3px , 3px);
+}
+.button-inputs{
+    padding: 20px 10px 10px 10px;
+}
+
+.first-inputs , .second-inputs , .third-inputs ,.fourth-inputs , .fifth-inputs{
+    display: flex;
+    justify-content: space-evenly;
+}
+.color1{
+    background-color: rgb(0 255 50);;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 5px 0px rgb(0 255 50)!important;
+}
+.color2{
+    background-color: #FF9800;
+    color: white;
+    box-shadow: 0px 0px 5px 0px #FF9800!important;
+    
+}
+.color3{
+    background-color: red;
+    color: white;
+    box-shadow: 0px 0px 5px 0px red !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
