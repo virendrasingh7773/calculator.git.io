@@ -31,7 +31,7 @@
 .input input:focus{
     outline: none;
 }
-.first-inputs input , .second-inputs input , .third-inputs input , .fourth-inputs input , .fifth-inputs input{
+.first-inputs button , .second-inputs button , .third-inputs button , .fourth-inputs button , .fifth-inputs button{
     width: 60px;
     height: 60px;
     border-radius: 20%;
@@ -41,7 +41,7 @@
     box-shadow: 0px 0px 5px 0px white;
     border: none;
 }
-input:active{
+button:active{
     background-color: black;
     color: white;
     transform: translate(3px , 3px);
